@@ -2,3 +2,28 @@ body {
     margin: 0;
     background: black;
 }
+
+.images {
+  width: 90%;
+  max-width: 2160px;
+  margin: 20px auto;
+}
+
+.goat {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  border-radius: 4px;
+  display: block;
+  }
+
+  .text-me {
+    background: linear-gradient(to right, red 40%, white 50%, blue 60%);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    text-align: center;
+  }
